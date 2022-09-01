@@ -1,0 +1,181 @@
+{
+	"$schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/fields.json",
+	"fields": [
+		{
+			"fieldKey": "iso",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "family_name",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "given_names",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "date_of_birth",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "address_unit",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "address_number",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "address_street",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "address_city",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "address_state",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "address_code",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "email",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "phone",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "male",
+			"fieldType": "selectionMark",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "female",
+			"fieldType": "selectionMark",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "ftm",
+			"fieldType": "selectionMark",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "queer",
+			"fieldType": "selectionMark",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "decline",
+			"fieldType": "selectionMark",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "mtf",
+			"fieldType": "selectionMark",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "she",
+			"fieldType": "selectionMark",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "he ",
+			"fieldType": "selectionMark",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "they",
+			"fieldType": "selectionMark",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "other",
+			"fieldType": "selectionMark",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "emergency_name",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "emergency_relationship",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "emergency_email",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "emergency_phone",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "signature",
+			"fieldType": "signature",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "date ",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "other_description",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "allergy_2",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "reaction_2",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "allergy_1",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "reaction_1",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "allergy_3",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "reaction_3",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		}
+	],
+	"definitions": {}
+}
