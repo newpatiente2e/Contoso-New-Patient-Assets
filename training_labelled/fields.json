@@ -22,16 +22,6 @@
 			"fieldFormat": "not-specified"
 		},
 		{
-			"fieldKey": "address_unit",
-			"fieldType": "string",
-			"fieldFormat": "not-specified"
-		},
-		{
-			"fieldKey": "address_number",
-			"fieldType": "string",
-			"fieldFormat": "not-specified"
-		},
-		{
 			"fieldKey": "address_street",
 			"fieldType": "string",
 			"fieldFormat": "not-specified"
@@ -62,56 +52,6 @@
 			"fieldFormat": "not-specified"
 		},
 		{
-			"fieldKey": "male",
-			"fieldType": "selectionMark",
-			"fieldFormat": "not-specified"
-		},
-		{
-			"fieldKey": "female",
-			"fieldType": "selectionMark",
-			"fieldFormat": "not-specified"
-		},
-		{
-			"fieldKey": "ftm",
-			"fieldType": "selectionMark",
-			"fieldFormat": "not-specified"
-		},
-		{
-			"fieldKey": "queer",
-			"fieldType": "selectionMark",
-			"fieldFormat": "not-specified"
-		},
-		{
-			"fieldKey": "decline",
-			"fieldType": "selectionMark",
-			"fieldFormat": "not-specified"
-		},
-		{
-			"fieldKey": "mtf",
-			"fieldType": "selectionMark",
-			"fieldFormat": "not-specified"
-		},
-		{
-			"fieldKey": "she",
-			"fieldType": "selectionMark",
-			"fieldFormat": "not-specified"
-		},
-		{
-			"fieldKey": "he ",
-			"fieldType": "selectionMark",
-			"fieldFormat": "not-specified"
-		},
-		{
-			"fieldKey": "they",
-			"fieldType": "selectionMark",
-			"fieldFormat": "not-specified"
-		},
-		{
-			"fieldKey": "other",
-			"fieldType": "selectionMark",
-			"fieldFormat": "not-specified"
-		},
-		{
 			"fieldKey": "emergency_name",
 			"fieldType": "string",
 			"fieldFormat": "not-specified"
@@ -132,17 +72,7 @@
 			"fieldFormat": "not-specified"
 		},
 		{
-			"fieldKey": "signature",
-			"fieldType": "signature",
-			"fieldFormat": "not-specified"
-		},
-		{
 			"fieldKey": "date ",
-			"fieldType": "string",
-			"fieldFormat": "not-specified"
-		},
-		{
-			"fieldKey": "other_description",
 			"fieldType": "string",
 			"fieldFormat": "not-specified"
 		},
@@ -174,6 +104,31 @@
 		{
 			"fieldKey": "reaction_3",
 			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "prefer_phone",
+			"fieldType": "selectionMark",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "prefer_text",
+			"fieldType": "selectionMark",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "gender_identity",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "my_pronouns",
+			"fieldType": "string",
+			"fieldFormat": "not-specified"
+		},
+		{
+			"fieldKey": "prefer_email",
+			"fieldType": "selectionMark",
 			"fieldFormat": "not-specified"
 		}
 	],
