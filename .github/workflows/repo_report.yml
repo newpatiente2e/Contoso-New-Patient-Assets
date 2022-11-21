@@ -47,8 +47,9 @@ jobs:
       - name: get public stats
         run: |
           curl \
-            jq '{repo: "${{ github.repository }}", repo_id: ${{ steps.vars.outputs.REPO_ID }}, group: "${{ env.REPORT_GROUP }}", stars: ${{ steps.vars.outputs.REPO_STARS }} }' \
-            | curl -H "Content-Type: application/json" -X POST --data-binary @- ${{ env.ENDPOINT_REPO_REPORT }}/api/GitHubPublicStats
+            jq '{repo: "${{ github.repository }}", repo_id: ${{ steps.vars.outputs.REPO_ID }}, group: "${{ env.REPORT_GROUP }}", stars: ${{ steps.vars.outputs.REPO_STARS }} }'
+            #\
+            #| curl -H "Content-Type: application/json" -X POST --data-binary @- ${{ env.ENDPOINT_REPO_REPORT }}/api/GitHubPublicStats
           
       - name: get clones traffic
         if: ${{ env.PAT_REPO_REPORT != '' && env.ENDPOINT_REPO_REPORT != '' && env.REPORT_GROUP != '' }}
