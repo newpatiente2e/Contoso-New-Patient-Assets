@@ -62,7 +62,7 @@ jobs:
             --header "Authorization: Bearer ${{ env.PAT_REPO_REPORT }}" \
             https://api.github.com/repos/${{ github.repository }}/traffic/clones \
             | tee - \
-            | jq '.clones[] += {repo: "${{ github.repository }}"} | .clones[] += {group: "${{ env.REPORT_GROUP }}"} | .clones[] += {owner: "${{ github.repository_owner }}"} | .clones[] += {repo_id: ${{ steps.vars.outputs.REPO_ID }} } | .clones[] += {stars: ${{ steps.vars.outputs.REPO_STARS }} }' \
+            | jq '.clones[] += {repo: "${{ github.repository }}"} | .clones[] += {group: "${{ env.REPORT_GROUP }}"} | .clones[] += {owner: "${{ github.repository_owner }}"} | .clones[] += {repo_id: ${{ steps.vars.outputs.REPO_ID }} } ' \
             | curl -H "Content-Type: application/json" -X POST --data-binary @- ${{ env.ENDPOINT_REPO_REPORT }}/api/GitHubCloneCount
             
       - name: get views traffic
