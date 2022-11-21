@@ -46,7 +46,12 @@ jobs:
           
       - name: get public stats
         run: |
-            jq '{repo: "${{ github.repository }}", repo_id: ${{ steps.vars.outputs.REPO_ID }}, group: "${{ env.REPORT_GROUP }}", stars: ${{ steps.vars.outputs.REPO_STARS }} }' \
+            curl \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer ${{ env.PAT_REPO_REPORT }}" \
+            https://api.github.com/repos/${{ github.repository }} \
+            | tee - \
+            | jq '{repo: "${{ github.repository }}", repo_id: ${{ steps.vars.outputs.REPO_ID }}, group: "${{ env.REPORT_GROUP }}", stars: .stargazers_count }' \
             | curl -H "Content-Type: application/json" -X POST --data-binary @- ${{ env.ENDPOINT_REPO_REPORT }}/api/GitHubPublicStats
           
       - name: get clones traffic
